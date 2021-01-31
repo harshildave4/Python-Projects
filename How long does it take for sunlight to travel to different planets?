@@ -1,0 +1,121 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Python Module 2 Project (FINISHED)",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyP+oAi+wQUjiQ/1om2Buf9m",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harshildave4/Python-Projects/blob/main/How%20long%20does%20it%20take%20for%20sunlight%20to%20travel%20to%20different%20planets%3F\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zrPyRJbGdjMv",
+        "outputId": "ecd17764-4ade-4756-a6ef-6274a8991053"
+      },
+      "source": [
+        "output = \"\\nTravel time for light from the sun to: \\n\"\r\n",
+        "\r\n",
+        "planet_input = str(input(\"What planet would you like to know about? \"))\r\n",
+        "\r\n",
+        "\r\n",
+        "if planet_input.lower() == \"mercury\":\r\n",
+        "  seconds_to_reach = 57000000/299792\r\n",
+        "  minutes_to_reach = seconds_to_reach/60\r\n",
+        "  print(output + planet_input.lower() + \": \" + str(minutes_to_reach), end= \" minutes\")\r\n",
+        "\r\n",
+        "elif planet_input.lower() == \"venus\":\r\n",
+        "  seconds_to_reach = 108000000/299792\r\n",
+        "  minutes_to_reach = seconds_to_reach/60\r\n",
+        "  print(output + planet_input.lower() + \": \" + str(minutes_to_reach), end= \" minutes\")\r\n",
+        "\r\n",
+        "elif planet_input.lower() == \"earth\":\r\n",
+        "  seconds_to_reach = 150000000/299792\r\n",
+        "  minutes_to_reach = seconds_to_reach/60\r\n",
+        "  print(output + planet_input.lower() + \": \" + str(minutes_to_reach), end= \" minutes\")\r\n",
+        "\r\n",
+        "elif planet_input.lower() == \"mars\":\r\n",
+        "  seconds_to_reach = 228000000/299792\r\n",
+        "  minutes_to_reach = seconds_to_reach/60\r\n",
+        "  print(output + planet_input.lower() + \": \" + str(minutes_to_reach), end= \" minutes\")\r\n",
+        "\r\n",
+        "elif planet_input.lower() == \"saturn\":\r\n",
+        "  seconds_to_reach = 1430000000/299792\r\n",
+        "  minutes_to_reach = seconds_to_reach/60\r\n",
+        "  hours_to_reach = minutes_to_reach/60\r\n",
+        "  remainder = minutes_to_reach % 60\r\n",
+        "  print(output + planet_input.lower() + \": \" + str(hours_to_reach) + \" hours\" + \" and \" + str(remainder), end= \" minutes\")\r\n",
+        "\r\n",
+        "elif planet_input.lower() == \"uranus\":\r\n",
+        "  seconds_to_reach = 2880000000/299792\r\n",
+        "  minutes_to_reach = seconds_to_reach/60\r\n",
+        "  hours_to_reach = minutes_to_reach/60\r\n",
+        "  remainder = minutes_to_reach % 60\r\n",
+        "  print(output + planet_input.lower() + \": \" + str(hours_to_reach) + \" hours\" + \" and \" + str(remainder), end= \" minutes\")\r\n",
+        "\r\n",
+        "elif planet_input.lower() == \"neptune\":\r\n",
+        "  seconds_to_reach = 4500000000/299792\r\n",
+        "  minutes_to_reach = seconds_to_reach/60\r\n",
+        "  hours_to_reach = minutes_to_reach/60\r\n",
+        "  remainder = minutes_to_reach % 60\r\n",
+        "  print(output + planet_input.lower() + \": \" + str(hours_to_reach) + \" hours\" + \" and \" + str(remainder), end= \" minutes\")\r\n",
+        "\r\n",
+        "elif planet_input.lower() == \"pluto\":\r\n",
+        "  seconds_to_reach = 5910000000/299792\r\n",
+        "  minutes_to_reach = seconds_to_reach/60\r\n",
+        "  hours_to_reach = minutes_to_reach/60\r\n",
+        "  remainder = minutes_to_reach % 60\r\n",
+        "  print(output + planet_input.lower() + \": \" + str(hours_to_reach) + \" hours\" + \" and \" + str(remainder), end= \" minutes\")\r\n",
+        "\r\n",
+        "else:\r\n",
+        "  print(\"Please enter a real planet\")"
+      ],
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "What planet would you like to know about? Neptune\n",
+            "\n",
+            "Travel time for light from the sun to: \n",
+            "neptune: 4.169557559908203 hours and 10.173453594492173 minutes"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Go7HbxxWDRvd"
+      },
+      "source": [
+        "\r\n",
+        "\r\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
