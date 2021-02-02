@@ -1,40 +1,4 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "name": "Python Module 2 Project (FINISHED)",
-      "provenance": [],
-      "collapsed_sections": [],
-      "authorship_tag": "ABX9TyP+oAi+wQUjiQ/1om2Buf9m",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/harshildave4/Python-Projects/blob/main/How%20long%20does%20it%20take%20for%20sunlight%20to%20travel%20to%20different%20planets%3F\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "zrPyRJbGdjMv",
-        "outputId": "ecd17764-4ade-4756-a6ef-6274a8991053"
-      },
-      "source": [
+
         "output = \"\\nTravel time for light from the sun to: \\n\"\r\n",
         "\r\n",
         "planet_input = str(input(\"What planet would you like to know about? \"))\r\n",
@@ -89,33 +53,4 @@
         "  print(output + planet_input.lower() + \": \" + str(hours_to_reach) + \" hours\" + \" and \" + str(remainder), end= \" minutes\")\r\n",
         "\r\n",
         "else:\r\n",
-        "  print(\"Please enter a real planet\")"
-      ],
-      "execution_count": 27,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "text": [
-            "What planet would you like to know about? Neptune\n",
-            "\n",
-            "Travel time for light from the sun to: \n",
-            "neptune: 4.169557559908203 hours and 10.173453594492173 minutes"
-          ],
-          "name": "stdout"
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "id": "Go7HbxxWDRvd"
-      },
-      "source": [
-        "\r\n",
-        "\r\n"
-      ],
-      "execution_count": null,
-      "outputs": []
-    }
-  ]
-}
+        "  print(\"Please enter a real planet\")
